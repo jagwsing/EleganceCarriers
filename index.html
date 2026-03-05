@@ -1,0 +1,206 @@
+<!doctype html>
+<html lang="en-AU">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Elegance Carriers | Interstate Vehicle Transport Australia</title>
+  <meta name="description" content="Elegance Carriers provides premium interstate vehicle transport across Australia with transparent pricing, live tracking, and reliable delivery." />
+  <meta name="theme-color" content="#0E2A47" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&family=Space+Grotesk:wght@600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="#home" aria-label="Elegance Carriers Home">
+        <span class="brand-mark">EC</span>
+        <span class="brand-text">Elegance Carriers</span>
+      </a>
+      <button id="menuToggle" class="menu-toggle" aria-label="Open menu" aria-expanded="false">Menu</button>
+      <nav id="siteNav" class="site-nav" aria-label="Main">
+        <a href="#services">Services</a>
+        <a href="#how">How It Works</a>
+        <a href="#routes">Routes</a>
+        <a href="#quote">Get Quote</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="home">
+    <section class="hero">
+      <div class="container hero-grid">
+        <div>
+          <p class="eyebrow">Interstate Vehicle Transport, Australia</p>
+          <h1>Premium Car Transport with Real-Time Visibility</h1>
+          <p class="lead">From private vehicles to dealer stock transfers, Elegance Carriers delivers reliable interstate movement with clear timelines and professional handling.</p>
+          <div class="hero-actions">
+            <a href="#quote" class="btn btn-primary">Get Instant Quote</a>
+            <a href="#how" class="btn btn-outline">How It Works</a>
+          </div>
+          <ul class="hero-points">
+            <li>2-hour pickup windows on metro routes</li>
+            <li>Live ETA updates and status notifications</li>
+            <li>Standard and premium insurance options</li>
+          </ul>
+        </div>
+        <aside class="hero-card">
+          <h2>Popular Corridor</h2>
+          <p class="corridor">Sydney ⇄ Melbourne</p>
+          <div class="metrics">
+            <div>
+              <strong>1-2</strong>
+              <span>Days Transit</span>
+            </div>
+            <div>
+              <strong>3x</strong>
+              <span>Departures / Week</span>
+            </div>
+            <div>
+              <strong>$550+</strong>
+              <span>Launch Rate</span>
+            </div>
+          </div>
+          <a class="card-link" href="#quote">Check your route</a>
+        </aside>
+      </div>
+    </section>
+
+    <section id="services" class="section">
+      <div class="container">
+        <p class="eyebrow">Services</p>
+        <h2>Transport Options Built for B2C and B2B</h2>
+        <div class="cards">
+          <article class="card">
+            <h3>Door-to-Door</h3>
+            <p>End-to-end pickup and delivery for personal relocations, online vehicle purchases, and interstate moves.</p>
+          </article>
+          <article class="card">
+            <h3>Depot-to-Depot</h3>
+            <p>Cost-efficient option for flexible customers using our nominated collection and drop-off points.</p>
+          </article>
+          <article class="card">
+            <h3>Dealer & Fleet Transfers</h3>
+            <p>Scheduled stock movement, auction logistics, and fleet relocation support with consistent dispatch slots.</p>
+          </article>
+          <article class="card">
+            <h3>Premium White-Glove</h3>
+            <p>Priority handling, tighter delivery windows, and enhanced condition verification for higher-value vehicles.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="how" class="section section-alt">
+      <div class="container">
+        <p class="eyebrow">How It Works</p>
+        <h2>Simple Process, Professional Delivery</h2>
+        <div class="steps">
+          <article>
+            <span>1</span>
+            <h3>Request Quote</h3>
+            <p>Submit pickup and delivery postcodes, vehicle type, and preferred dates.</p>
+          </article>
+          <article>
+            <span>2</span>
+            <h3>Confirm Booking</h3>
+            <p>Receive transparent pricing, transit window, and service tier options.</p>
+          </article>
+          <article>
+            <span>3</span>
+            <h3>Pickup & Inspection</h3>
+            <p>Driver performs a condition report with timestamped photos before loading.</p>
+          </article>
+          <article>
+            <span>4</span>
+            <h3>Track & Deliver</h3>
+            <p>Track progress with ETA updates until handover at destination.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="routes" class="section">
+      <div class="container">
+        <p class="eyebrow">Coverage</p>
+        <h2>Core East Coast Corridors, Expanding Nationally</h2>
+        <div class="route-grid">
+          <div class="route">
+            <h3>Sydney ⇄ Melbourne</h3>
+            <p>High-volume corridor with fast turnaround and frequent departures.</p>
+          </div>
+          <div class="route">
+            <h3>Sydney ⇄ Brisbane</h3>
+            <p>Balanced route for relocation and marketplace buyer demand.</p>
+          </div>
+          <div class="route">
+            <h3>Melbourne ⇄ Brisbane</h3>
+            <p>Long-haul service with strong value for dealer and private transfers.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="quote" class="section section-quote">
+      <div class="container quote-wrap">
+        <div>
+          <p class="eyebrow">Get Quote</p>
+          <h2>Plan Your Vehicle Move</h2>
+          <p>Tell us your route and vehicle details. We will respond with an accurate quote and next available pickup window.</p>
+        </div>
+        <form class="quote-form" id="quoteForm" novalidate>
+          <label for="pickup">Pickup City / Postcode</label>
+          <input id="pickup" name="pickup" type="text" placeholder="e.g., Sydney NSW 2000" required />
+
+          <label for="delivery">Delivery City / Postcode</label>
+          <input id="delivery" name="delivery" type="text" placeholder="e.g., Melbourne VIC 3000" required />
+
+          <label for="vehicle">Vehicle Type</label>
+          <select id="vehicle" name="vehicle" required>
+            <option value="">Select vehicle type</option>
+            <option>Sedan / Hatch</option>
+            <option>SUV / 4WD</option>
+            <option>Ute / Van</option>
+            <option>Luxury / Performance</option>
+          </select>
+
+          <label for="service">Service Tier</label>
+          <select id="service" name="service">
+            <option>Standard</option>
+            <option>Priority</option>
+            <option>Express</option>
+            <option>Premium White-Glove</option>
+          </select>
+
+          <button type="submit" class="btn btn-primary">Request Quote</button>
+          <p class="form-note" id="formMessage" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer id="contact" class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <h3>Elegance Carriers</h3>
+        <p>Interstate Vehicle Transport. Done Right.</p>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <p>Email: hello@elegancecarriers.com.au</p>
+        <p>Phone: +61 4XX XXX XXX</p>
+      </div>
+      <div>
+        <h4>Business</h4>
+        <p>ABN: XX XXX XXX XXX</p>
+        <p>Australia-Wide Service Coverage</p>
+      </div>
+    </div>
+    <p class="copyright">© <span id="year"></span> Elegance Carriers. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
